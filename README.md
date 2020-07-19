@@ -1,21 +1,21 @@
 # cijs44final
-AUTH
+## AUTH
 1. Register
 2. Login
-MAIN
+## MAIN
 3. Swipe
 4. Chat
-RIGHT
+## RIGHT
 5. Profile
-LEFT
+## LEFT
 6. List of Matches
 7. List of Who likes me
-SETTING
+## SETTING
 8. My profile settings
 
 
 
-DB:
+## DB:
 
 - users
   + name
@@ -31,19 +31,23 @@ DB:
   + updatedAt
   + lastActive
   + likesReceived (array)
-      [{+ created at
+      [{
+       + created at
        + user (email)},]
   + likedGiven (array)
-      [{+ created at
+      [{
+       + created at
        + user (email)},]
   + matches (array)
-      [{+ created at
+      [{
+       + created at
        + user (email)},]
 
 - conversations
   + createdAt
   + messages (array)
-       [{+ createdAt
+       [{
+       + createdAt
        + owner
        + content
        + users (2)},]
