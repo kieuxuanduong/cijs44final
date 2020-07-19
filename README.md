@@ -10,6 +10,7 @@
 ## LEFT
 6. List of Matches
 7. List of Who likes me
+8. List of Conversations
 ## SETTING
 8. My profile settings
 
@@ -34,7 +35,7 @@
       [{
        + created at
        + user (email)},]
-  + likedGiven (array)
+  + likesGiven (array)
       [{
        + created at
        + user (email)},]
